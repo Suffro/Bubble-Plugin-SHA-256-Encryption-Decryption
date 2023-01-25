@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "technical"
+    },
+    "demo_page": "",
+    "description": "This plugin allows you to HASH or HMAC encrypt strings with a secret key (in case of HMAC) using the Node crypto library.\n\nAvailable algorithms:\nmd5, sha1, sha224, sha256, sha384, sha512\n\nIMPORTANT:\nRemember to keep your secret keys safe (losing a secret key can be very harmful).",
+    "image": "//s3.amazonaws.com/appforest_uf/f1674644003644x294627701163545400/HASHHMAC.png",
+    "license": "open_source",
+    "name": "Hash & Hmac encryption",
+    "sa_node_version": 14
+}

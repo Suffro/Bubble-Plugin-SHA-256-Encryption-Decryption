@@ -1,0 +1,47 @@
+{
+    "category": "plugins",
+    "display": "Hash encrypt string",
+    "fields": {
+        "AAR": {
+            "caption": "String",
+            "editor": "DynamicValue",
+            "name": "string",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAi": {
+            "caption": "Digest",
+            "default_val": "base64",
+            "doc": "",
+            "editor": "Dropdown",
+            "name": "digest",
+            "optional": false,
+            "options": "base64,hex",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABJ": {
+            "caption": "algorithm",
+            "editor": "Dropdown",
+            "name": "algorithm",
+            "options": "md5,sha1,sha224,sha256,sha384,sha512",
+            "rank": 3
+        },
+        "ABU": {
+            "caption": "This action will run on the server.",
+            "editor": "Label",
+            "name": "this_action_will_run_on_the_server.",
+            "rank": 0
+        }
+    },
+    "return_value": {
+        "AAS": {
+            "caption": "Encrypted string",
+            "name": "encrypted_string",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}
